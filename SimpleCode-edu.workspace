@@ -2,5 +2,6 @@
 <CodeBlocks_workspace_file>
 	<Workspace title="SimpleCode-edu">
 		<Project filename="130_smartPointers/130_smartPointers.cbp" />
+		<Project filename="046_pointers/046_pointers.cbp" />
 	</Workspace>
 </CodeBlocks_workspace_file>
