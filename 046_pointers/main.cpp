@@ -11,9 +11,13 @@ int main()
 
     int a = 5;
     int *px = &a;
+    int *px2 = &a;
 
-    cout << *px << endl;
     cout << px << endl;
+    cout << *px << endl;
+
+    cout << px << endl;
+    cout << px2 << endl;
 
     return 0;
 }
