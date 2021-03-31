@@ -1,4 +1,5 @@
-//using Code::Blocks 20.03
+// https://www.youtube.com/watch?v=ixsTu-ULh0Q
+// Умные указатели. Smart pointers. Изучение С++ для начинающих. Урок #130
 #include <iostream>
 
 template<typename T>
