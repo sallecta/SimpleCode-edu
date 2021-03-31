@@ -1,4 +1,4 @@
-#using Code::Blocks 20.03
+//using Code::Blocks 20.03
 #include <iostream>
 
 template<typename T>
@@ -17,11 +17,11 @@ public:
         delete this->ptr;
     }
 
-    //operator * overload
+    //"*" operator overload
     // return link to T
     T& operator*()
     {
-      return *this->ptr;
+        return *this->ptr;
     }
 private:
     T *ptr;
@@ -30,10 +30,10 @@ private:
 
 int main()
 {
-    //std::cout << "Hello world!" << std::endl;
-    int *ptr = new int(5);
-    std::cout<<ptr<<std::endl;
-    std::cout<<*ptr<<std::endl;
+//    std::cout << "Hello world!" << std::endl;
+//    int *ptr = new int(5);
+//    std::cout<<ptr<<std::endl;
+//    std::cout<<*ptr<<std::endl;
 
     SmartPointer<int> pointer = new int(51);
     //or
