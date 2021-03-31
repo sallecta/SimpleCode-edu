@@ -7,13 +7,13 @@ class SmartPointer
 public:
     SmartPointer(T *argPtr)
     {
-        std::cout<<"class SmartPointer.Constructor"<<std::endl;
+        std::cout<<"class SmartPointer. Constructor"<<std::endl;
         this->ptr= argPtr;
     }
 
     ~SmartPointer()
     {
-        std::cout<<"class SmartPointer.Destructor"<<std::endl;
+        std::cout<<"class SmartPointer. Destructor"<<std::endl;
         delete this->ptr;
     }
 
