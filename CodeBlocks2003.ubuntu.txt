@@ -1,0 +1,2 @@
+ sudo add-apt-repository ppa:codeblocks-devs/release
+ sudo apt-get install codeblocks codeblocks-contrib
